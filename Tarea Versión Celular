@@ -77,7 +77,12 @@
 </div>
 /*Transparencia*/
 <h3 class="transparencia">TRANSPARENCIA</h3>
-
+<div class="transparencia">
+	<a href="" class="transparencia">Reporte de Gestión 2018</a>
+	<p class="transparencia">PDF 4.8Mb</p>
+</div>
+/*Otra opción*/
+<p><input class="transparencia" type="image" name="botón PDF" src="" alt="desplegar menú"></p>
 /*Licitación*/
 /*Pie de página-Menú*/
 /*Pie de página-Temas*/
