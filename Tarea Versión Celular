@@ -7,14 +7,15 @@
 </head>
 <body>
 /*Cabecera*/
-<img src="" alt="puerto vista superior">
-<img src="" alt="logo">
-<p><input type="image" name="botón menú" src="" alt="desplegar menú"></p>
-<h1><b>San Antonio,</b> el mayor puerto de Chile</h1>
-<figure>
-	<img src="" alt="cámara">
-	<figcaption>Ver más fotos y videos</figcaption>
-</figure>
+<div class="cabecera">
+	<img src="" alt="logo">
+	<p><input type="image" name="botón menú" src="" alt="desplegar menú"></p>
+	<h1><b>San Antonio,</b> el mayor puerto de Chile</h1>
+	<figure>
+		<img src="" alt="cámara">
+		<figcaption>Ver más fotos y videos</figcaption>
+	</figure>
+</div>
 /*Cifras destacadas*/
 <h3>CIFRAS DESTACADAS</h3>
 <div class="cifras destacadas">
@@ -84,9 +85,68 @@
 /*Otra opción*/
 <p><input class="transparencia" type="image" name="botón PDF" src="" alt="desplegar menú"></p>
 /*Licitación*/
+<h3 class="licitaciones">LICITACIONES EN CURSO</h3>
+<div class="licitaciones">
+	<p class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 01/2019</p>
+	<p class="licitaciones">Resumen especificaciones técnicas para el desarrollo de tarea de mantención preventiva sistema VCMOC</p>
+	<a href="" class="licitaciones">> ALCANCE</a>
+	<a href="" class="licitaciones">> PUBLICACIÓN</a>
+</div>
+<div class="licitaciones">
+	<p class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 19/2019</p>
+	<p class="licitaciones">Diseño, implementación y mantención sitio web corporativo Empresa Portuaria San Antonio</p>
+	<a href="" class="licitaciones">> ALCANCE</a>
+	<a href="" class="licitaciones">> PUBLICACIÓN</a>
+</div>
+<div class="licitaciones">
+	<p class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 19/2019</p>
+	<p class="licitaciones">Contratación de servicios de mantención preventiva y arriendo de equipos oara CCTV de la Empresa Portuaria San Antonio</p>
+	<a href="" class="licitaciones">> ALCANCE</a>
+	<a href="" class="licitaciones">> PUBLICACIÓN</a>
+</div>
+<div class="licitaciones">
+	<a href="" class="licitaciones-final">VER TODAS></a>
+</div>
 /*Pie de página-Menú*/
+<div class="pie-de-página">
+	<img src="" alt="logo">
+	<a href="" class="menú">Inicio</a>
+	<a href="" class="menú">Sistema Portuario</a>
+	<a href="" class="menú">Puerto San Antonio</a>
+	<a href="" class="menú">Puerto Exterior</a>
+	<a href="" class="menú">Concesionarios Puerto San Antonio</a>
+	<a href="" class="menú">Planificación</a>
+	<a href="" class="menú">Integración Ciudad Puerto</a>
+	<a href="" class="menú">Puerto Sustentable</a>
+	<a href="" class="menú">Transparencia</a>
+	<a href="" class="menú">Asuntos Públicos</a>
+</div>
 /*Pie de página-Temas*/
+<div class="pie-de-pagina">
+	<a href="" class="temas">Noticias</a>
+	<a href="" class="temas">Eventos</a>
+	<a href="" class="temas">Contacto</a>
+	<a href="" class="temas">Mapa de sitio</a>
+	<a href="" class="temas">Minisitios para niños y escolares</a>
+	<a href="" class="temas">San Antonio y Paseo Bellamar</a>
+	<a href="" class="temas">Trabaja con nosotros</a>
+	<a href="" class="temas">Denuncias</a>
+</div>
 /*Pie de página-Contacto*/
+<div class="pie-de-pagina">
+	<ol>
+		<li class="contacto">Av. Barros Luco N°1613, of. 8 A</li>
+		<li class="contacto">San Antonio - Chile.</li>
+		<li class="contacto">Tel. (56) 2586000</li>
+		<li class="contacto">Fax (56) 2586010</li>
+	</ol>
+</div>
 /*Pie de página-Consecionario*/
+<div>
+	<h3 class="pie-de-pagina">NUESTROS CONCESIONARIOS</h3>
+	<img src="" alt="logo sti">
+	<img src="" alt="logo puerto panul">
+	<img src="" alt="logo pce">
+</div>
 </body>
 </html>
