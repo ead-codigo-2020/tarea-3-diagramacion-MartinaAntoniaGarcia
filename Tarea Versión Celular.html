@@ -10,132 +10,149 @@
 <body>
 	<!--Cabecera-->
 	<div class="cabecera">
-		<img src="ddc/logopuertosanantonio.png" alt="logo puerto san Antonio">
-		<i class="fa fa-navicon" alt="hamburguesa"></i>
+		<img class="logo-cabecera" src="ddc/logopuertosanantonio.png" alt="logo puerto san Antonio">
+		<i class="fa fa-navicon" title="hamburguesa"></i>
 		<h1><b>San Antonio,</b> el mayor puerto de Chile</h1>
 		<figure>
-			<i class="fa fa-camera" alt="camara"></i>
-			<figcaption>Ver más fotos y videos</figcaption>
+			<i class="fa fa-camera" title="camara"></i>
+			<a href="#" class="link-cabecera">Ver más fotos y videos</a>
 		</figure>
 	</div>
 	<!--Cifras destacadas-->
 	<h3>CIFRAS DESTACADAS</h3>
-	<div class="cifras destacadas">
-		<i class="fa fa-truck" alt="container"></i>
-		<h2>19.934.166</h2>
-		<p>TONELADAS MOVILIZADAS TOTALES</p>
-	</div>
-	<div class="cifras destacadas">
-		<i class="fa fa-ship" alt="barco"></i>
-		<h2>+75.000</h2>
-		<p>PASAJEROS RECIBIDOS</p>
-	</div>
-	<div class="cifras destacadas">
-		<i class="fa fa-leaf" alt="planta"></i>
-		<h2>48.157.000</h2>
-		<p>EN PROYECTOS MEDIOAMBIENTALES</p>
-	</div>
+	<table class="cifras-destacadas">
+		<tr>
+			<td class="icono-cifras-destacadas"><i class="fa fa-truck" title="container"></i></td>
+			<td class="cifras-destacadas-titulo">19.934.166</td>
+			<td class="cifras-destacadas-que">toneladas movilizadas totales</td>
+		</tr>
+		<tr>
+			<td class="icono-cifras-destacadas"><i class="fa fa-ship" title="barco"></i></td>
+			<td class="cifras-destacadas-titulo">+75.000</td>
+			<td class="cifras-destacadas-que">pasajeros recibidos</td>
+		</tr>
+		<tr>
+			<td class="icono-cifras-destacadas"><i class="fa fa-leaf" title="planta"></i></td>
+			<td class="cifras-destacadas-titulo">48.157.000</td>
+			<td class="cifras-destacadas-que">en proyectos medioambientales</td>
+		</tr>
+	</table>
 	<!--sostenibilidad-->
-	<h3 class="sostenibilidad">SOSTENIBILIDAD</h3>
-	<p class="sostenibilidad">Comprometidos con nuestros vecinos, el medio ambiente y el desarrollo sustentable de nuestra comuna</p>
-	<img src="ddc/pajaroazulenarbol.jpg" alt="pajaro azul">
-	<p class="sostenibilidad">Estudio de avifauna en las lagunas de Llolleo y la desembocadura del río Maipo</p>
-	<img src="ddc/vistalateralpuertocontainersbarco.jpg" alt="puerto vista lateral">
-	<p class="sostenibilidad">Paseo Bellamar, principal atractivo turístico del borde costero</p>
-	<img src="ddc/orquestacuerdasmoradoazul.jpg" alt="orquesta">
-	<p class="sostenibilidad">Organización y apoyo en actividades culturales de relevancia en nuestra comuna</p>
-	<h2 class="sostenibilidad">Visita también nuestras iniciativas digitales</h2>
-	<a class="sostenibilidad" href="https://youtu.be/X2lIovmNsUY">MINISITIO PARA NIÑOS Y ESCOLARES</a>
-	<a class="sostenibilidad" href="https://youtu.be/X2lIovmNsUY">SAN ANTONIO Y PASEO BELLAMAR</a>
+	<h3 class="sostenibilidad-titulo">SOSTENIBILIDAD</h3>
+	<p class="sostenibilidad-bajada-titulo">Comprometidos con nuestros vecinos, el medio ambiente y el desarrollo sustentable de nuestra comuna</p>
+	<table>
+		<tr>
+			<td class="imagen-sostenibilidad"><img src="ddc/pajaroazulenarbol.jpg" alt="pajaro azul"></td>
+			<td><p class="sostenibilidad-parrafo">Estudio de avifauna en las lagunas de Llolleo y la desembocadura del río Maipo</p></td>
+		</tr>
+		<tr>
+			<td class="imagen-sostenibilidad"><img src="ddc/vistalateralpuertocontainersbarco.jpg" alt="puerto vista lateral"></td>
+			<td><p class="sostenibilidad-parrafo">Paseo Bellamar, principal atractivo turístico del borde costero</p></td>
+		</tr>
+		<tr>
+			<td class="imagen-sostenibilidad"><img src="ddc/orquestacuerdasmoradoazul.jpg" alt="orquesta"></td>
+			<td><p class="sostenibilidad-parrafo">Organización y apoyo en actividades culturales de relevancia en nuestra comuna</p></td>
+		</tr>
+	</table>
+	<h2 class="sostenibilidad-titulo-link">Visita también nuestras iniciativas digitales</h2>
+	<a class="sostenibilidad-link" href="#">minisitio para niños y escolares</a>
+	<a class="sostenibilidad-link" href="#">san antonio y paseo bellamar</a>
 	<!--Noticia 18 de Enero-->
-	<h3 class="destacado">DESTACAMOS</h3>
-	<img src="ddc/vistasuperiorpuertodesdeatras.jpg" alt="dibujo digital puerto">
-	<p class="destacado-fecha">18 DE ENERO</p>
-	<h2 class="destacado">Puerto San Antonio destaca avances del proyecto Puerto Exterior en su reporte anual de sostenibilidad</h2>
-	<p class="destacado">Además, durante 2017, los concesionarios del puerto movilizaron casi 1.296.890 contenedores</p>
-	<a href="https://youtu.be/X2lIovmNsUY" class="destacado">CONTINUAR LEYENDO ></a>
+	<h3 class="destacado-titulo">DESTACAMOS</h3>
+	<img class="imagen-destacado" src="ddc/vistasuperiorpuertodesdeatras.jpg" alt="dibujo digital puerto">
+	<div class="destacado-noticia">
+		<p class="destacado-fecha">18 DE ENERO</p>
+		<h2 class="destacado">Puerto San Antonio destaca avances del proyecto Puerto Exterior en su reporte anual de sostenibilidad</h2>
+		<p class="destacado">Además, durante 2017, los concesionarios del puerto movilizaron casi 1.296.890 contenedores</p>
+		<a href="#" class="destacado">CONTINUAR LEYENDO ></a>
+	</div>
 	<!--Prensa-->
-	<h3 class="prensa">PRENSA</h3>
-	<img src="ddc/barcoconteiners.jpg" alt="barco con containers">
-	<p class="prensa-fecha">11 DE ENERO</p>
-	<p class="prensa">Puerto San Antonio alcanza nuevo máximo histórico al transferir más de 22 millones de toneladas</p>
-	<img src="ddc/pasajerosbarcoturistico.jpg" alt="pasajeros">
-	<p class="prensa-fecha">05 DE ENERO</p>
-	<p class="prensa">Puerto San Antonio continúa con su programa de visitas guiadas a la bahía</p>
-	<a href="https://youtu.be/X2lIovmNsUY" class="prensa-link">VER MÁS NOTICIAS></a>
+	<h3 class="prensa-titulo">PRENSA</h3>
+	<table class="prensa-tabla">
+		<tr>
+			<td><img class="imagen-prensa" src="ddc/barcoconteiners.jpg" alt="barco con containers"></td>
+			<td><p class="prensa-fecha">11 DE ENERO</p></td>
+			<td><p class="prensa-cuerpo">Puerto San Antonio alcanza nuevo máximo histórico al transferir más de 22 millones de toneladas</p></td>
+		</tr>
+		<tr>
+			<td><img src="ddc/pasajerosbarcoturistico.jpg" alt="pasajeros"></td>
+			<td><p class="prensa-fecha">05 DE ENERO</p></td>
+			<td><p class="prensa-cuerpo">Puerto San Antonio continúa con su programa de visitas guiadas a la bahía</p></td>
+		</tr>
+	</table>
+	<a href="#" class="prensa-link">VER MÁS NOTICIAS></a>
 	<!--Redes Sociales ¿Está unido a el botón de ver mas noticias?-->
-	<h3 class="redes-sociales">REDES SOCIALES</h3>
-	<img src="ddc/cruceropuertosoleadoveranao.jpg" alt="crucero" class="twitter">
-	<figure class="redes-sociales-twitter-facebook">
-		<i class="fa fa-instagram" alt="logointagram"></i>
-		<a href="https://youtu.be/X2lIovmNsUY" class="redes-sociales-twitter-facebook">@puertosantonio</a>
-	</figure>
-	<p class="redes-sociales-twitter-facebook">En Puerto San Antonio (17/02/19), el Crucero Seven Seas Explorer, de 224 metros eslora y bandera de Islas Marshall, se encuentra desde ayer en el concesionario Puerto Central, con Zarpe programado para hoy a las 18 Hrs. #SanAntonio #ElPuertodeChile<br>Fotos: @RubenJeriaH<br>#cruceros #verano #Chile #cruiseship #port #cruises</p>
-	<div class="redes-sociales-twitter-facebook">
+	<h3 class="redes-sociales-titulo">REDES SOCIALES</h3>
+	<a href="#" class="instagram">
+		<img src="ddc/cruceropuertosoleadoveranao.jpg" alt="crucero" class="instagram-imagen">
+		<i class="fa fa-instagram" title="logo-instagram"></i>
+		<p class="instagram-nombre">@puertosantonio</p>
+		<p class="instagram-cuerpo">En Puerto San Antonio (17/02/19), el Crucero Seven Seas Explorer, de 224 metros eslora y bandera de Islas Marshall, se encuentra desde ayer en el concesionario Puerto Central, con Zarpe programado para hoy a las 18 Hrs. #SanAntonio #ElPuertodeChile<br>Fotos: @RubenJeriaH<br>#cruceros #verano #Chile #cruiseship #port #cruises</p>
+	<a>
+	<div class="otras-redes">
 		<p class="redes-sociales-twitter-facebook">Síguenos también en:</p>
-		<figure class="redes-sociales-twitter-facebook">
-			<i class="fa fa-twitter" alt="logotwitter"></i>
-			<a href="https://youtu.be/X2lIovmNsUY" class="redes-sociales-twitter-facebook">@puertosantonio</a>
+		<figure class="twitter-facebook">
+			<i class="fa fa-twitter" title="logo-twitter"></i>
+			<a href="#" class="nombre-twitter-facebook">@puertosantonio</a>
 		</figure>
-		<figure class="redes-sociales-twitter-facebook">
-			<i class="fa fa-facebook" alt="logofacebook"></i>
-			<a href="https://youtu.be/X2lIovmNsUY" class="redes-sociales-twitter-facebook">puertosantonio</a>
+		<figure class="twitter-facebook">
+			<i class="fa fa-facebook" title="logo-facebook"></i>
+			<a href="#" class="nombre-twitter-facebook">puertosantonio</a>
 		</figure>
 	</div>
 	<!--Transparencia-->
-	<h3 class="transparencia">TRANSPARENCIA</h3>
-	<div class="transparencia">
-		<a href="https://youtu.be/X2lIovmNsUY" class="transparencia">Reporte de Gestión 2018</a>
-		<p class="transparencia">PDF 4.8Mb</p>
-	</div>
+	<h3 class="transparencia-titulo">TRANSPARENCIA</h3>
+	<a href="#" class="documento-transparencia"></a>
+		<h4 class="transparencia-boton">Reporte de Gestión 2018</h4>
+		<p class="transparencia-datos-archivo">PDF 4.8Mb</p>
+	</a>
 	<!--Licitación-->
-	<h3 class="licitaciones">LICITACIONES EN CURSO</h3>
-	<div class="licitaciones">
-		<p class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 01/2019</p>
-		<p class="licitaciones">Resumen especificaciones técnicas para el desarrollo de tarea de mantención preventiva sistema VCMOC</p>
-		<a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> ALCANCE</a>
-		<a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> PUBLICACIÓN</a>
-	</div>
-	<div class="licitaciones">
-		<p class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 19/2019</p>
-		<p class="licitaciones">Diseño, implementación y mantención sitio web corporativo Empresa Portuaria San Antonio</p>
-		<a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> ALCANCE</a>
-		<a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> PUBLICACIÓN</a>
-	</div>
-	<div class="licitaciones">
-		<p class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 19/2019</p>
-		<p class="licitaciones">Contratación de servicios de mantención preventiva y arriendo de equipos oara CCTV de la Empresa Portuaria San Antonio</p>
-		<a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> ALCANCE</a>
-		<a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> PUBLICACIÓN</a>
-	</div>
-	<div class="licitaciones">
-		<a href="https://youtu.be/X2lIovmNsUY" class="licitaciones-final">VER TODAS></a>
-    </div>
+	<h3 class="licitaciones-titulo">LICITACIONES EN CURSO</h3><p><a href="https://youtu.be/X2lIovmNsUY" class="licitaciones-final">VER TODAS></a></p>
+	<table class="licitaciones">
+	<tr>
+		<td class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 01/2019</td>
+		<td class="licitaciones-cuerpo">Resumen especificaciones técnicas para el desarrollo de tarea de mantención preventiva sistema VCMOC</td>
+		<td><a href="#" class="licitaciones"> ALCANCE</a><br><a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> PUBLICACIÓN</a></td>
+	</tr>
+	<tr>
+		<td class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 19/2019</td>
+		<td class="licitaciones-cuerpo">Diseño, implementación y mantención sitio web corporativo Empresa Portuaria San Antonio</td>
+		<td><a href="#" class="licitaciones"> ALCANCE</a><br><a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> PUBLICACIÓN</a></td>
+	</tr>
+	<tr>
+		<td class="licitaciones-fecha">LICITACIÓN PÚBLICA<br>SAI 19/2019</td>
+		<td class="licitaciones-cuerpo">Contratación de servicios de mantención preventiva y arriendo de equipos para CCTV de la Empresa Portuaria San Antonio</td>
+		<td><a href="#" class="licitaciones"> ALCANCE</a><br><a href="https://youtu.be/X2lIovmNsUY" class="licitaciones"> PUBLICACIÓN</a></td>
+	</tr>
+	</table>
+	<a href="#" class="licitaciones-link">VER TODAS></a>
     <!--Pie de página-Menú-->
 	<div class="pie-de-página">
-		<img src="ddc/logopuertosanantonio.png" alt="logo puerto san Antonio">
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Inicio</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Sistema Portuario</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Sistema Portuario</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Puerto San Antonio</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Puerto Exterior</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Concesionarios Puerto San Antonio</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Planificación</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Integración Ciudad Puerto</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Puerto Sustentable</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Transparencia</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="menú">Asuntos Públicos</a><br>
+		<img class="logo-pie-pagina" src="ddc/logopuertosanantonio.png" alt="logo puerto san Antonio">
+		<ol class="menu">
+			<li><a href="#" class="menu-link">Inicio</a></li>
+			<li><a href="#" class="menu-link">Sistema Portuario</a></li>
+			<li><a href="#" class="menu-link">Sistema Portuario</a></li>
+			<li><a href="#" class="menu-link">Puerto San Antonio</a></li>
+			<li><a href="#" class="menu-link">Puerto Exterior</a></li>
+			<li><a href="#" class="menu-link">Concesionarios Puerto San Antonio</a></li>
+			<li><a href="#" class="menu-link">Planificación</a></li>
+			<li><a href="#" class="menu-link">Integración Ciudad Puerto</a></li>
+			<li><a href="#" class="menu-link">Puerto Sustentable</a></li>
+			<li><a href="#" class="menu-link">Transparencia</a></li>
+			<li><a href="#" class="menu-link">Asuntos Públicos</a></li>
+		</ol>
 	</div>
 	<!--Pie de página-temas-->
 	<div class="pie-de-pagina">
-		<a href="https://youtu.be/X2lIovmNsUY" class="temas">Noticias</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="temas">Eventos</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="temas">Contacto</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="temas">Mapa de sitio</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="temas">Minisitios para niños y escolares</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="temas">San Antonio y Paseo Bellamar</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="temas">Trabaja con nosotros</a><br>
-		<a href="https://youtu.be/X2lIovmNsUY" class="temas">Denuncias</a><br>
+		<a href="https://youtu.be/X2lIovmNsUY" class="temas-link">Noticias</a><br>
+		<a href="https://youtu.be/X2lIovmNsUY" class="temas-link">Eventos</a><br>
+		<a href="https://youtu.be/X2lIovmNsUY" class="temas-link">Contacto</a><br>
+		<a href="https://youtu.be/X2lIovmNsUY" class="temas-link">Mapa de sitio</a><br>
+		<a href="https://youtu.be/X2lIovmNsUY" class="temas-link">Minisitios para niños y escolares<i class="fa fa-external-link" title="simbolo pagina externa"></i> </a><br>
+		<a href="https://youtu.be/X2lIovmNsUY" class="temas-link">San Antonio y Paseo Bellamar<i class="fa fa-external-link" title="simbolo pagina externa"></i></a><br>
+		<a href="https://youtu.be/X2lIovmNsUY" class="temas-link">Trabaja con nosotros</a><br>
+		<a href="https://youtu.be/X2lIovmNsUY" class="temas-link">Denuncias</a><br>
 	</div>
 	<!--Pie de página-contacto-->
 	<div class="pie-de-pagina">
@@ -148,10 +165,10 @@
 	</div>
 	<!--Pie de página-consecionarios-->
 	<div class="consecionarios">
-		<h3 class="pie-de-pagina">NUESTROS CONCESIONARIOS</h3>
-		<img src="ddc/logoterminalinternacionalsanantonio.jpg" alt="logo3">
-		<img src="ddc/logopuertopanul.jpg" alt="logopuertopanul">
-		<img src="ddc/logopuertocentralsanantonio.jpg" alt="logopuertocentralsanantonio">
+		<h3 class="pie-de-pagina-consecionarios">nuestros concesionarios</h3>
+		<img class="logo-consecionario-1" src="ddc/logoterminalinternacionalsanantonio.jpg" alt="logo3">
+		<img class="logo-consecionario-2" src="ddc/logopuertopanul.jpg" alt="logopuertopanul">
+		<img class="logo-consecionario-3" src="ddc/logopuertocentralsanantonio.jpg" alt="logopuertocentralsanantonio">
 	</div>
 </body>
 </html>
