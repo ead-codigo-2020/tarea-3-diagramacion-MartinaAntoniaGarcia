@@ -180,9 +180,10 @@
     column-gap: 25px;
     grid-template-rows: 100px 50% 25px 25px 30% 10% 100px;
     z-index: 8;
+    
 }
 .destacado-titulo {
-    color: black;
+    color: gray;
     text-transform: uppercase;
     font-weight: 300;
     grid-column: 2/span 3;
@@ -204,11 +205,26 @@
 }
 .textos-destacado {
     background-color: white;
+    color: black;
     grid-column: 3/ span 4;
     grid-row: 3/span 4;
+    font-weight: 400;
+    text-align: left;
 }
-.prensa-cuerpo {
-    background-color: white;
-    padding-top: 3%;
-    padding-bottom: 3%;    
+.destacado-fecha {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.destacado-titulo-noticia {
+    font-size: 18px;
+}
+.destacado-cuerpo {
+    font-size: 12px;
+}
+.destacado-link {
+    color: deepskyblue;
+}
+.subtitulo-prensa-redes {
+    text-align: left;
+    font-weight: 300;
 }
