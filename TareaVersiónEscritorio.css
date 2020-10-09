@@ -238,9 +238,44 @@
     grid-column: 2/span 3;
     grid-row: 5/span 7;
     background-attachment: white;
+    z-index: 1;
 }
 .prensa-imagen {
     width: 100px;
     height: 75px;
     object-fit: cover;
+    z-index: 2;
+}
+.redes-sociales-titulo {
+    grid-column: 4/span 5;  
+}
+.cuerpo-instagram {
+    grid-column: 3/span 4;
+    grid-row: 5/span 6;
+    background-color: white;
+    z-index: 1;
+}
+.instagram-imagen {
+    width: 300px;
+    height: 100px;
+    z-index: 2;
+    display: grid;
+    object-fit: cover;
+    float: left;
+}
+.instagram-titulo {
+    color: deepskyblue;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+}
+.instagram-cuerpo {
+    font-size: 10px;
+    color: dimgray;
+    text-align: left;
+}
+.otras-redes {
+    grid-column: 3/span 4;
+    grid-row: 6/span 7;
+    padding: 2%;
 }
