@@ -17,17 +17,21 @@
     height: 80px;
 }
 .menu-negro-arriba {
-    font-size: 12px;
-    font-weight: 400;
-    background-color: black;
-    color: white;
+
+    background-color: black;    
     text-transform: uppercase;
     padding-left: 400px;
     padding-top: 10px;
-    letter-spacing: 2pt;
-    word-spacing: 10pt;
     grid-column: 1/span 6;
     grid-row: 1/span 2;
+}
+.menu-negro-arriba-items {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    display:inline;
+    letter-spacing: 2pt;
+    word-spacing: 10pt;
 }
 .cabecera-menu-superior {
     z-index: 2;
@@ -41,6 +45,7 @@
     width:10%;
     grid-column: 5/span 6;
     grid-row: 3/span 4;
+    display:inline;
 }
 .cabecera-menu-superior-items {
     padding: 2%;
@@ -179,8 +184,7 @@
     grid-template-columns: 75px 30% 30% 75px;
     column-gap: 25px;
     grid-template-rows: 100px 50% 25px 25px 30% 10% 100px;
-    z-index: -1;
-    
+    z-index: -1;   
 }
 .destacado-titulo {
     color: dimgray;
@@ -315,4 +319,30 @@
 .transparencia-datos-archivo {
     font-size: 12px;
 }
-
+.licitaciones {
+    grid-column: 3/span 4;
+}
+.linea-final-licitaciones {
+    grid-row: 2/span 3;
+    z-index: 2;
+}
+.licitaciones-titulo {
+    color: dimgray;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+}
+.licitaciones-final {
+    color: deepskyblue;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+}
+.licitaciones-lista {
+    grid-row: 3/span 4;
+    z-index: 2;
+    border: black 1px;
+}
+ul
