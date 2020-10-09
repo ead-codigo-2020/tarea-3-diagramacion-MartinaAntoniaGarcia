@@ -121,3 +121,45 @@ body {
     background-color: rgba(0, 0, 0, 0.644); 
     padding: 1%;   
 }
+.horizonte-gris {
+    background-color: gainsboro;
+    padding: 5%;
+}
+.destacado-titulo {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.destacado {
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.destacamos-imagen {
+    width: 30%;
+    height: 70%;
+    align-content: flex-start;
+    object-fit: cover;
+    text-align: right;
+    float: left;
+    margin-top: -3%;
+    margin-bottom: -3%;
+    margin-right: 5%;
+}
+.prensa-cuerpo {
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;    
+}
+prensa-imagen {
+    size: 10%;
+    align-content: flex-start;
+    object-fit: cover;
+    float: left;
+    margin-top: -3%;
+    margin-bottom: -3%;
+    margin-right: 5%;
+}
+.prensa-escritura {
+    float: right;
+}
