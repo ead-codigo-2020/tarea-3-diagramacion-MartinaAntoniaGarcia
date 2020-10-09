@@ -234,3 +234,13 @@
     color: dimgray;
     grid-row: 4/span 5;
 }
+.prensa-cuerpo {
+    grid-column: 2/span 3;
+    grid-row: 5/span 7;
+    background-attachment: white;
+}
+.prensa-imagen {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+}
