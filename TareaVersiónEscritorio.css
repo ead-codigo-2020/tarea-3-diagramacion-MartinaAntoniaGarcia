@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 body {
-    font-family: Roboto, Condensed;
+    font-family: "Roboto Condensed";
+    margin: 0%;
 }
 .logo-cabecera {
     float: left;
@@ -10,7 +11,6 @@ body {
     z-index: 1;
 }
 .menu-negro-arriba {
-    font-family: Roboto, Condensed;
     font-size: 20px;
     font-weight: 400;
     background-color: black;
@@ -44,7 +44,7 @@ body {
     width:10%;
 }
 .h1 {
-    font-size: x-large;
+    font-size: 36px;
     color: white;
     align-content: flex-start;
     margin-left: 300px;
@@ -83,4 +83,40 @@ body {
     font-weight: 400;
     letter-spacing: 2pt;
     word-spacing: 10pt;
+}
+.sostenibilidad-horizonte {
+    background-image: url(ddc/horizonteplayaatardecer.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: exclusion;
+    width: 100%;
+    padding: 5%;
+}
+.imagen-sostenibilidad { 
+    box-sizing: content-box;
+    width: 25%;
+    height: 500px;
+    object-fit: cover;
+}
+.sostenibilidad-titulo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.sostenibilidad-bajada {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.sostenibilidad-parrafo {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.sostenibilidad-link {
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.644); 
+    padding: 1%;   
 }
