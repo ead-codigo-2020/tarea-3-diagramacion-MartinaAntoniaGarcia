@@ -1,0 +1,109 @@
+.body {
+    margin: 0;
+    font-family: "Roboto Condensed";
+}
+:root {
+    --celeste-color: rgb(48, 209, 242)
+}
+.titulo {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+}
+.titulo-2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+}
+.link {
+    color: var(--celeste-color);
+    font-weight: 700;
+}
+.fecha {
+    color: grey;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.cabecera-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 50% 45% 1fr;
+    grid-template-rows: 1fr 71% 1fr;
+    grid-column: 1/5;
+    grid-row: 1/4;
+    background-image: url(ddc/backcabeceravistasuperiormarpuerto.jpg);
+    object-fit: contain;
+    background-size: 100% auto;
+}
+.logo-cabecera {
+    grid-column: 2;
+    grid-row: 1;
+    width: 20%;
+    z-index: 2;
+}
+.datos-busqueda {
+    background-color: black;
+    grid-column: 1/5;
+    grid-row: 1;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 0.1%;
+}
+.lista-datos-items {
+    display: flex;
+    list-style: none;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin-right: 10%;
+    text-transform: uppercase;
+}
+.buscador-menu {
+    width: 300px;
+}
+.menu-superior {
+    grid-column: 3/4;
+    grid-row: 1;
+    display: flex;
+    margin-top: 10%;
+}
+.menu-superior-items {
+    text-transform: uppercase;
+    word-spacing: 2px;
+    justify-content: flex-end;
+    margin-left: 2%;
+    margin-right: 2%;
+    list-style: none;
+}
+
+.cabecera-menu-inferior {
+    grid-column: 1/5;
+    grid-row: 3;
+    display: flex;
+    flex-direction: row;
+    grid-row-start: 4;
+    border-color: white 0.1px;
+}
+.cabecera-menu-inferior-items {
+    grid-column: 2/4;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-color: white;
+    list-style: none;
+}
+.titulacion {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    padding-top: 30%;
+}
+.h1 {
+    clear: both;
+    color: white;
+}
+.cabecera-link {
+    color: white;
+    text-align: end;
+    clear: both;
+    padding-top: 5%;
+}
