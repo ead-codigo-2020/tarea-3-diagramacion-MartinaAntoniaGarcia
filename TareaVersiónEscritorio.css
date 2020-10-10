@@ -42,7 +42,7 @@
     font-size: 12px;
     width: 300px;
 }
-.cabecera-menu-superior {
+.menu-superior {
     z-index: 2;
     color: white;
     text-transform: uppercase;
@@ -55,7 +55,7 @@
     grid-column: 5/span 6;
     grid-row: 3/span 4;
 }
-.cabecera-menu-superior-items {
+.menu-superior-items {
     padding: 2%;
     display:inline;
 }

@@ -60,12 +60,13 @@
 }
 .buscador-menu {
     width: 300px;
+    padding-top: 2%;
 }
 .menu-superior {
     grid-column: 3/4;
     grid-row: 1;
     display: flex;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 .menu-superior-items {
     text-transform: uppercase;
@@ -74,6 +75,8 @@
     margin-left: 2%;
     margin-right: 2%;
     list-style: none;
+    color: white;
+    text-decoration: none;
 }
 
 .cabecera-menu-inferior {
@@ -95,7 +98,7 @@
 .titulacion {
     grid-column: 2/4;
     grid-row: 2/3;
-    padding-top: 30%;
+    padding-top: 70%;
 }
 .h1 {
     clear: both;
