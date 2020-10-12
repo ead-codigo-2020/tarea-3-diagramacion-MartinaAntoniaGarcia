@@ -289,7 +289,7 @@ b {
     text-transform: uppercase;
 }
 otros-comunicacion {
-    display: flex;
+    display: ;
     flex-direction: row;
 }
 .subtitulo-prensa-redes {
@@ -299,6 +299,7 @@ otros-comunicacion {
 .prensa-t {
     text-transform: uppercase;
     color: var(--gris-oscuro);
+    font-size: 20px;
 }
 .comunicacion-link {
 }
@@ -324,4 +325,31 @@ otros-comunicacion {
     align-content: left;
     padding-left: 2%;
     padding-right: 2%;
+}
+.otras-redes {
+    width: 40%;
+}
+.otras-redes img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    object-fit: contain;
+    align-self: top;
+}
+.instagram {
+    background-color: white;
+    padding: 20%;
+}
+.instagram-titulo {
+    color: var(--celeste-color);
+    font-weight: 700;
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+}
+.instagram-cuerpo {
+    color: black;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
 }
