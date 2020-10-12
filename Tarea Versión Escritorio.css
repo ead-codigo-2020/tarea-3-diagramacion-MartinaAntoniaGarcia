@@ -294,23 +294,34 @@ otros-comunicacion {
 }
 .subtitulo-prensa-redes {
     padding: 2%;
-    display: flex;
-    flex-direction: row;
+    width: 40%;
 }
 .prensa-t {
     text-transform: uppercase;
     color: var(--gris-oscuro);
-    text-align: left;
 }
 .comunicacion-link {
-    text-align: right;
 }
 .noticia {
     background-color: white;
-    width: 50%;
+    width: 40%;
+    height: 50%;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    margin-top: 1%;
 }
-.prensa-imagen {
-    
+.noticia img {
+    width: 32%;
+    height: 100%;
+    float: left;
+    object-fit: contain;
+    align-self: top;
+}
+.noticia div {
+    vertical-align: center;
+    width: 35ch;
+    align-content: left;
+    padding-left: 2%;
+    padding-right: 2%;
 }
